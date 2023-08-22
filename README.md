@@ -9,14 +9,14 @@ Analysis conducted to evaluate a trained model's suitablity to identify high-ris
 
 Historical lending data (77,536 records) was used which included the below list of features:
 
-    * loan_size
-    * interest_rate
-    * borrower_income
-    * debt_to_income
-    * num_of_accounts
-    * derogatory_marks
-    * total_debt
-    * loan_status
+  * loan_size
+  * interest_rate
+  * borrower_income
+  * debt_to_income
+  * num_of_accounts
+  * derogatory_marks
+  * total_debt
+  * loan_status
 
 Using the Python machine learning library Scikit-Learn the original data was split into training and testing datasets using model_selection then a Logistic Regression Model applied to predict the 'loan_status' of the testing dataset. In the data and predictions '0' is a healthy loan and a '1' is a high-risk loan.
 
