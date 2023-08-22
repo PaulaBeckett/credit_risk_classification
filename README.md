@@ -8,6 +8,7 @@ Module 20
 Analysis conducted to evaluate a trained model's suitablity to identify high-risk loans. High-risk being those loans where borrowers are identified as less suitable for credit due to their likelihood of defaulting on their obligations.
 
 Historical lending data (77,536 records) was used which included the below list of features:
+
     * loan_size
     * interest_rate
     * borrower_income
